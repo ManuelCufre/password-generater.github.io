@@ -1,0 +1,48 @@
+*{
+    color: #fff;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #e2a9ff, #cc66ff);
+}
+
+.generador {
+    box-shadow: 0 0 10px 1px rgb(103, 48, 139);
+    height: 20rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(103, 48, 139);
+    border-radius: 5px;
+}
+
+#mostrarRes {
+    width: 12.5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 5px;   
+    color: black;
+}
+
